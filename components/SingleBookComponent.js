@@ -6,7 +6,7 @@ export const SingleBookComponent = (props) => {
   const [book, setBook] = useState({
     name: genre.name,
     author: genre.author,
-    type: ['papreback ', 'hard cover', ' pdf'],
+    prices: genre.prices,
   });
   return (
     <div>
